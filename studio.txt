@@ -1,4 +1,5 @@
 # 上位机自己的版本清单。一行一个版本，程序取版本号最大的那条，顺序写乱了也不影响。
 # 格式：版本|日期|文件名|字节数|sha256|中文说明|英文说明|俄文说明
 # 前五段一个都不能少；后面三段语言说明能省就省。# 开头的行当注释，可以拿来记版本历史。
-1.1.0|2026-11-15|AddasoundStudio.exe|2028032|7c0b8aa1b5ea199fb55d614cddfa3d4e5a21c3c82b045f3a68ec1ff95bec34eb|点状态条的“检查更新”会顺手查软件自己有没有新版，有新版本先看说明再决定装不装；软件崩了会留日志；清单里同一型号写两行、日期写成未来，都会在日志里记一笔|Check Updates also checks the app itself. A crash now leaves a log. Manifest mistakes get logged instead of shown.|Кнопка проверки обновлений проверяет и саму программу. Сбои пишутся в журнал. Ошибки в списке тоже.
+1.1.1|2026-11-15|AddasoundStudio.exe|2028544|acfbbca174e087331ec71770873a7e0fdb665b114f6c4a08ce6ffb47f2677159|查更新这一步现在会记日志：拉不到清单、已是最新、发现新版本，各写一行；客户说“点了没反应”，直接翻日志看是哪一种。1.1.0 上还没有这一笔|Update checks now leave a log line: no manifest, already latest, or a new version found. If someone says nothing happened, read the log.|Проверка обновлений теперь пишется в журнал: не удалось получить список, уже последняя версия, найдено обновление. Если говорят, что ничего не произошло — читайте журнал.
+1.1.0|2026-11-15|AddasoundStudio.exe|2028032|7c0b8aa1b5ea199fb55d614cddfa3d4e5a21c3c82b045f3a68ec1ff95bec34eb|上一版，留在这里当记录。程序取版本号最大的那条，这一行不会被选中|Previous build, kept for the record|Предыдущая версия, оставлена для истории
