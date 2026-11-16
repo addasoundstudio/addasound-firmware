@@ -1,2 +1,2 @@
 型号|版本|发布日期|中文说明|英文说明|Русский|文件名
-Addasound Epic D Series|9232|2026-11-20|更换通话降噪参数|Replaced call noise reduction parameters|Заменены параметры шумоподавления|2D30923220261110.bin
+Addasound Epic D Series|2000|2026-11-16|更换通话降噪参数|Replaced call noise reduction parameters|Заменены параметры шумоподавления|2D30200020261116.bin
